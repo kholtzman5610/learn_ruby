@@ -6,4 +6,4 @@ end
 def ctof(celsius_degrees)
   fahrenheit = (celsius_degrees.to_i * 9.0 / 5) + 32
   fahrenheit.round(1)
-end
+end 
