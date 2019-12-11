@@ -4,9 +4,11 @@
 #
 # # Hints
 #
-# Remember that one degree fahrenheit is 5/9 of one degree celsius, and that the freezing point of water is 0 degrees celsius but 32 degrees fahrenheit.
+# Remember that one degree fahrenheit is 5/9 of one degree celsius, and that 
+#the freezing point of water is 0 degrees celsius but 32 degrees fahrenheit.
 #
-# In integer math, there **are no fractions**. So if you are using integer literals, you will be using integer math, which means, for example...
+# In integer math, there **are no fractions**. So if you are using integer 
+#literals, you will be using integer math, which means, for example...
 #
 #    1 / 2 => 0
 #
@@ -55,11 +57,6 @@ describe "temperature conversion functions" do
 
     it "converts body temperature" do
       expect(ctof(37)).to be_within(0.1).of(98.6)
-      # Why do we need to use be_within?
-      # See http://www.ruby-forum.com/topic/169330
-      # and http://en.wikipedia.org/wiki/IEEE_754-2008
-      # and http://en.wikipedia.org/wiki/Double_precision_floating-point_format
-      # Also, try "puts 0.5 - 0.4 - 0.1" -- pretty crazy, right?
     end
 
   end
