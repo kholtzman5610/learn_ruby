@@ -18,7 +18,7 @@ def start_of_word(string, num)
 end
 
 def first_word(string)
-  string.split(" ")[0]
+  string.split(" ")[0] 
 end
 
 def titleize(string)
