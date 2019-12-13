@@ -76,7 +76,7 @@ end
 # Extra Credit Test-Driving Bonus:
 # once the above tests pass,
 # write tests and code for the following:
-=begin
+
 describe "#multiply" do
 
   it "multiplies two numbers" 
@@ -97,4 +97,3 @@ describe "#factorial" do
   it "computes the factorial of 5"
   it "computes the factorial of 10"
 end
-=end 
